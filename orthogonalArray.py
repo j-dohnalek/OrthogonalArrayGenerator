@@ -89,4 +89,7 @@ if __name__ == '__main__':
     try:
         generate_orthogonal_array()
     except Exception:
-        print "python orthogonalArray.py [levels] [runs] [factors]"
+        print "usage: python orthogonalArray.py [levels] [runs] [factors]"
+        print "also see: "
+        print "https://www.guru99.com/orthogonal-array-testing.html"
+        print "http://www.pietereendebak.nl/oapackage/"
