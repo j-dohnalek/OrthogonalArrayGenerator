@@ -10,6 +10,30 @@ https://www.guru99.com/orthogonal-array-testing.html
 pip install OApackage
 ```
 
+## Example usage
+
+A Web page has three distinct sections (Top, Middle, Bottom) that can be individually shown or hidden from user
+
+* No of Factors = 3 (Top, Middle, Bottom)
+* No of Levels (Visibility) = 2 (Hidden or Shown)
+* Array Type = L4(23)
+
+<pre>
+Test Cases 	TOP        Middle     Bottom
+Test #1     Hidden     Hidden     Hidden
+Test #2     Hidden     Visible    Visible
+Test #3     Visible    Hidden     Visible
+Test #4     Visible    Visible    Hidden
+</pre>
+Generate the test array (0-Hidden; 1-Visible)
+```
+>> python orthogonalArray.py 2 4 3
+0   0   0
+0   1   1
+1   0   0
+1   1   1
+```
+
 ## Credits
 http://www.pietereendebak.nl/oapackage/
 
