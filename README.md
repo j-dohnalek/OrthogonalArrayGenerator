@@ -9,6 +9,10 @@ https://www.guru99.com/orthogonal-array-testing.html
 ```
 pip install OApackage
 ```
+
+## Credits
+http://www.pietereendebak.nl/oapackage/
+
 Credits go to:
 
 * [Complete Enumeration of Pure-Level and Mixed-Level Orthogonal Arrays](http://dx.doi.org/10.1002/jcd.20236), E.D. Schoen, P.T. Eendebak, M.V.M. Nguyen, Volume 18, Issue 2, pages 123-140, 2010.
