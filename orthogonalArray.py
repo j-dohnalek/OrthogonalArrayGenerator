@@ -86,4 +86,7 @@ def generate_orthogonal_array():
 
 
 if __name__ == '__main__':
-    generate_orthogonal_array()
+    try:
+        generate_orthogonal_array()
+    except Exception:
+        print "python orthogonalArray.py [levels] [runs] [factors]"
